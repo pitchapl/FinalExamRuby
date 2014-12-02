@@ -4,16 +4,17 @@ class Game
 		puts lovemac(number)
 	end
 	def lovemac(number)
-	  case
+	 val = case
 	  when (number % 3 == 0) && (number % 5 == 0)
-	    return "HateWindows"
+	     "HateWindows"
 	  when (number % 3 == 0)
-	    return "Love"
+	     "Love"
 	  when (number % 5 == 0)
-	    return "Mac"
+	     "Mac"
 	  else
-	    return number
+	     number
 	  end
+	  return val
 end
 end
 
