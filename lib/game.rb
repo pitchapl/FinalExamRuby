@@ -2,13 +2,13 @@ class Game
 	def lovemac(number)
   case
   when (number % 3 == 0) && (number % 5 == 0)
-    puts "HateWindows"
+    return "HateWindows"
   when (number % 3 == 0)
-    puts "Love"
+    return "Love"
   when (number % 5 == 0)
-    puts "Mac"
+    return "Mac"
   else
-    puts number
+    return number
   end
 end
 end
