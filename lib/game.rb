@@ -1,6 +1,6 @@
 class Game
 
-	(1..50).each do 
+	(1..50).each do |number|
 		puts lovemac(number)
 	end
 	def lovemac(number)
